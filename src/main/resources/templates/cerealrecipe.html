@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Cereal Recipe</title>
+    <link rel="stylesheet" type="text/css" href="/recipestyle.css">
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+</head>
+
+<body>
+<div>
+    <a href="crabrecipe.html">Crabcake</a>
+    <a href="gyrorecipe.html">Gyro</a>
+    <a th:class="active-link" href="cerealrecipe.html">Cereal</a>
+    <a href="wingsrecipe.html">Sichuan Wings</a>
+    <a href="gimbaprecipe.html">Gimbap</a>
+    <a href="pumpkinricenoodlesrecipe.html">Pumpkin Rice Noodles</a>
+    <a href="eggsaucerecipe.html">Egg Sauce</a>
+    <a href="injerarecipe.html">Injera</a>
+    <a href="recipebook.html">Back to Home</a>
+</div>
+<h1>Cereal Recipe!</h1>
+<p>Country of Origin: United States (New York)</p>
+<img th:src="@{/images/flags/usa.png}"/>
+<h2>Ingredients:</h2>
+<ul>
+    <li>1 serving of your favorite cereal</li>
+    <li>1 bowl</li>
+    <li>1 Spoon</li>
+    <li>3 - 5 cups of milk</li>
+</ul>
+<h2>Directions:</h2>
+<p>Open the container of cereal and take the bowl. Pour cereal into the bowl until it is about half to 2/3rds filled.</p>
+<p>Pour in milk into bowl until cereal raises to fill rest of bowl.</p>
+<p>Take spoon, put in bowl.</p>
+<p><b>Serves 1 person</b></p>
+</body>
+
+</html>

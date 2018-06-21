@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+</head>
+
+<body>
+<div>
+    <a href="crabrecipe.html">Crabcake</a>
+    <a href="gyrorecipe.html">Gyro</a>
+    <a href="cerealrecipe.html">Cereal</a>
+    <a href="wingsrecipe.html">Sichuan Wings</a>
+    <a href="gimbaprecipe.html">Gimbap</a>
+    <a href="pumpkinricenoodlesrecipe.html">Pumpkin Rice Noodles</a>
+    <a href="eggsaucerecipe.html">Egg Sauce</a>
+    <a href="injerarecipe.html">Injera</a>
+
+    <h1>Welcome to the Recipe Book!</h1>
+
+    <table>
+        <tr>
+            <td>
+                <a href="crabrecipe.html"><img th:src="@{/images/crab-cakes.jpg}"/></a>
+            </td>
+            <td>
+                <p>Crabcake</p>
+            </td>
+            <td>
+                <a href="gyrorecipe.html"><img th:class="img-right" th:src="@{/images/gyros.jpg}"/></a>
+            </td>
+            <td>
+                <p>Gyro</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="cerealrecipe.html"><img th:src="@{/images/cereal.jpg}"/></a>
+            </td>
+            <td>
+                <p>Cereal</p>
+            </td>
+            <td>
+                <a href="wingsrecipe.html"><img th:class="img-right" th:src="@{/images/sichuan-wings.jpg}"/></a>
+            </td>
+            <td>
+                <p>Sichuan Wings</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="gimbaprecipe.html"><img th:src="@{/images/gimbap.jpg}"/></a>
+            </td>
+            <td>
+                <p>Gimbap</p>
+            </td>
+            <td>
+                <a href="pumpkinRiceNoodlesrecipe.html"><img th:class="img-right" th:src="@{/images/noodles.jpg}"/></a>
+            </td>
+            <td>
+                <p>Pumpkin Rice Noodles</p>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <a href="eggSaucerecipe.html"><img th:src="@{/images/egg-sauce.jpg}"/></a>
+            </td>
+            <td>
+                <p>Egg Sauce</p>
+            </td>
+            <td>
+                <a href="injerarecipe.html"><img th:class="img-right" th:src="@{/images/injera.jpg}"/></a>
+            </td>
+            <td>
+                <p>Injera</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

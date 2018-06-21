@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Injera Recipe</title>
+    <link rel="stylesheet" type="text/css" href="/recipestyle.css">
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+</head>
+
+<body>
+<div>
+    <a href="crabrecipe.html">Crabcake</a>
+    <a href="gyrorecipe.html">Gyro</a>
+    <a href="cerealrecipe.html">Cereal</a>
+    <a href="wingsrecipe.html">Sichuan Wings</a>
+    <a href="gimbaprecipe.html">Gimbap</a>
+    <a href="pumpkinricenoodlesrecipe.html">Pumpkin Rice Noodles</a>
+    <a href="eggsaucerecipe.html">Egg Sauce</a>
+    <a th:class="active-link" href="injerarecipe.html">Injera</a>
+    <a href="recipebook.html">Back to Home</a>
+</div>
+<h1>Injera Recipe!</h1>
+<p>Country of Origin: Ethiopia</p>
+<img th:src="@{/images/flags/ethiopia.png}"/>
+<h2>Ingredients:</h2>
+<ul>
+    <li>&#xbe; cup teff flour (found in health food shops)</li>
+    <li>3&#189; cups water</li>
+    <li>Pinch of salt</li>
+</ul>
+<h2>Directions:</h2>
+<p>Standing time 2 days.</p>
+<p>Mix teff with the water. Leave to stand in a covered bowl for a couple of days until it starts to bubble.</p>
+<p>The mixture should be slightly sour and the consistency of crêpe batter. Stir in the salt.</p>
+<p>Add a ladle of the mixture to a pre-heated skillet and cook slowly until air bubbles rise to the top.</p>
+<p>Do not let it brown, and make sure that it is not too thick.</p>
+<p><b>Serves 2 people</b></p>
+</body>
+
+</html>
